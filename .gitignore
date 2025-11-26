@@ -24,3 +24,6 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+
+# Archive folder
+archive/
