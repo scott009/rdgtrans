@@ -1,6 +1,9 @@
 #!/bin/bash
 # Script to prompt reading documentation from dochome
 
+# Change to project directory
+cd /home/scott/gitrepos/rdgtrans/
+
 # Define paths
 DOCHOME="/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations"
 
