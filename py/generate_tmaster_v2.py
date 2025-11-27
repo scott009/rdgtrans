@@ -457,7 +457,6 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
             # Chapter heading block
             html += f'''            <div class="paragraph-block heading-block" data-id="{item_id}" data-chapter="{chapter_num}">
                 <div class="para-header">
-                    <span class="chapter-num">📖 CHAPTER {chapter_num}</span>
                     <span class="modified-badge">MODIFIED</span>
                 </div>
 
@@ -487,7 +486,7 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
             # Regular paragraph block
             html += f'''            <div class="paragraph-block" data-id="{item_id}" data-chapter="{chapter_num}">
                 <div class="para-header">
-                    <span class="para-id">Ch {chapter_num}: {item_id}</span>
+                    <span class="para-id">{item_id}</span>
                     <span class="modified-badge">MODIFIED</span>
                 </div>
 
