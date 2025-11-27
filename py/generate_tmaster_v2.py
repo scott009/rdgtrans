@@ -551,9 +551,57 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
     print(f"✓ Ready for translation correction")
 
 if __name__ == '__main__':
+    import sys
+
+    # Default to Thai if no arguments provided (backward compatibility)
+    if len(sys.argv) > 1:
+        language = sys.argv[1].lower()
+    else:
+        language = 'thai'
+
+    # Language name mapping (for display)
+    language_names = {
+        'thai': 'Thai',
+        'japanese': 'Japanese',
+        'vietnamese': 'Vietnamese',
+        'korean': 'Korean',
+        'simplified_chinese': 'Simplified Chinese',
+        'traditional_chinese': 'Traditional Chinese'
+    }
+
+    # File name mapping
+    language_files = {
+        'thai': 'RDGBook_Thai.md',
+        'japanese': 'RDGBook_Japanese.md',
+        'vietnamese': 'RDGBook_Vietnamese.md',
+        'korean': 'RDGBook_Korean.md',
+        'simplified_chinese': 'RDGBook_SimplifiedChinese.md',
+        'traditional_chinese': 'RDGBook_TraditionalChinese.md'
+    }
+
+    # Output file mapping
+    output_files = {
+        'thai': 'tmasterThai.html',
+        'japanese': 'tmasterJapanese.html',
+        'vietnamese': 'tmasterVietnamese.html',
+        'korean': 'tmasterKorean.html',
+        'simplified_chinese': 'tmasterSimplifiedChinese.html',
+        'traditional_chinese': 'tmasterTraditionalChinese.html'
+    }
+
+    if language not in language_files:
+        print(f"Error: Unknown language '{language}'")
+        print(f"Available languages: {', '.join(language_files.keys())}")
+        sys.exit(1)
+
     workmaster_json = '/home/scott/gitrepos/rdgtrans/workmaster.json'
     english_md = '/home/scott/gitrepos/rdgtrans/lmasters/RDGBook_English.md'
-    thai_md = '/home/scott/gitrepos/rdgtrans/lmasters/RDGBook_Thai.md'
-    output_file = '/mnt/c/Users/scott/Documents/RecoveryDharma/RDGBook/output_V1/docs/tmasterThai.html'
+    language_md = f'/home/scott/gitrepos/rdgtrans/lmasters/{language_files[language]}'
+    output_file = f'/mnt/c/Users/scott/Documents/RecoveryDharma/RDGBook/output_V1/docs/{output_files[language]}'
+    language_name = language_names[language]
 
-    generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file)
+    print(f"\n{'='*60}")
+    print(f"Generating {language_name} Translation Master")
+    print(f"{'='*60}\n")
+
+    generate_tmaster_v2(workmaster_json, english_md, language_md, output_file, language_name)
