@@ -90,19 +90,12 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
         except (ValueError, TypeError):
             ch_num_for_lookup = chapter_num
 
-        # Get chapter titles
+        # Get chapter titles (not used for display, but kept for reference)
         title_en = english_titles.get(ch_num_for_lookup, chapter_title_en)
         title_th = thai_titles.get(ch_num_for_lookup, '')
 
-        # Add chapter heading
-        if title_en or title_th:
-            content_items.append({
-                'type': 'heading',
-                'chapter_num': chapter_num,
-                'id': f'chapter-{chapter_num}',
-                'english_text': title_en,
-                'thai_text': title_th
-            })
+        # Skip adding chapter heading blocks to avoid confusion about missing chapters
+        # (Chapter numbering has gaps: no Ch 1, 2, 7, 17, 18, etc.)
 
         # Add paragraphs from this chapter
         if 'content' in chapter:
@@ -124,9 +117,7 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
                             })
 
     print(f"\n✓ Built content structure:")
-    headings_count = sum(1 for item in content_items if item['type'] == 'heading')
     paragraphs_count = sum(1 for item in content_items if item['type'] == 'paragraph')
-    print(f"  {headings_count} chapter headings")
     print(f"  {paragraphs_count} paragraphs")
     print(f"  {len(content_items)} total items")
 
@@ -159,8 +150,8 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
         }}
 
         .reviewer-section {{
-            background: #c53030;
-            background: linear-gradient(135deg, #c53030 0%, #9b2c2c 100%);
+            background: #e07a7a;
+            background: linear-gradient(135deg, #e07a7a 0%, #d89999 100%);
             color: white;
             padding: 25px;
             border-radius: 8px;
@@ -418,11 +409,10 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
 <body>
     <header>
         <h1>Recovery Dharma - {language_name} Translation Correction Tool</h1>
-        <p>Review and correct {language_name} translations. Chapters 3-36. Your edits will be saved to a JSON file.</p>
     </header>
 
     <div class="reviewer-section">
-        <h2>👤 Reviewer Information (Required)</h2>
+        <h2>👤 About You</h2>
         <p>Please provide your information before starting the review. This helps us track contributions and contact you if needed.</p>
 
         <div class="editor-info">
@@ -451,42 +441,15 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
         english_text = item['english_text']
         thai_text = item['thai_text']
 
+        # Skip heading blocks - only show paragraph blocks
+        if item_type == 'heading':
+            continue
+
         # Escape quotes for HTML attributes
         thai_text_escaped = thai_text.replace('"', '&quot;').replace("'", '&#39;')
 
-        if item_type == 'heading':
-            # Chapter heading block
-            html += f'''            <div class="paragraph-block heading-block" data-id="{item_id}" data-chapter="{chapter_num}">
-                <div class="para-header">
-                    <span class="chapter-num">📖 CHAPTER {chapter_num}</span>
-                    <span class="modified-badge">MODIFIED</span>
-                </div>
-
-                <div class="english-ref">
-                    <label>English Chapter Title:</label>
-                    <p style="font-size: 1.2em; font-weight: bold;">{english_text}</p>
-                </div>
-
-                <div class="thai-edit">
-                    <label>Thai Chapter Title (editable):</label>
-                    <textarea
-                        name="{item_id}"
-                        data-original="{thai_text_escaped}"
-                        data-chapter="{chapter_num}"
-                        style="font-size: 1.1em; font-weight: bold; min-height: 60px;"
-                    >{thai_text}</textarea>
-                </div>
-
-                <div class="comment">
-                    <label>Comment (optional):</label>
-                    <input type="text" name="{item_id}-comment" placeholder="Notes about this chapter title">
-                </div>
-            </div>
-
-'''
-        else:
-            # Regular paragraph block
-            html += f'''            <div class="paragraph-block" data-id="{item_id}" data-chapter="{chapter_num}">
+        # Regular paragraph block
+        html += f'''            <div class="paragraph-block" data-id="{item_id}" data-chapter="{chapter_num}">
                 <div class="para-header">
                     <span class="para-id">Ch {chapter_num}: {item_id}</span>
                     <span class="modified-badge">MODIFIED</span>
@@ -521,7 +484,7 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
     <footer>
         <button type="button" id="download-btn">📥 Download Corrections JSON</button>
         <div id="stats">
-            <span id="total-count">{len(content_items)} items ({headings_count} chapters + {paragraphs_count} paragraphs)</span>
+            <span id="total-count">{paragraphs_count} paragraphs</span>
             <span id="edited-count">0 edited</span>
         </div>
     </footer>
