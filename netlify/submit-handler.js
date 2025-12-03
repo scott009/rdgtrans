@@ -9,8 +9,8 @@
  * Update NETLIFY_FUNCTION_URL with your actual Netlify function URL
  */
 
-// IMPORTANT: Replace this URL after deploying to Netlify
-const NETLIFY_FUNCTION_URL = 'https://YOUR-SITE-NAME.netlify.app/.netlify/functions/submit-corrections';
+// Netlify function URL
+const NETLIFY_FUNCTION_URL = 'https://statuesque-moonbeam-289585.netlify.app/.netlify/functions/submit-corrections';
 
 /**
  * Submit corrections to GitHub via Netlify function
