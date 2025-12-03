@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "language": "test",
+    "editor": "Browser Test",
+    "editor_email": "test@test.com",
+    "timestamp": "2025-12-03T01:27:00.385Z",
+    "source_file": "test.md",
+    "total_items": 1,
+    "edited_items": 1,
+    "chapters_covered": [
+      1
+    ]
+  },
+  "corrections": [
+    {
+      "id": "test",
+      "chapter": 1,
+      "original": "orig",
+      "edited": "edit",
+      "status_update": "corrected"
+    }
+  ]
+}
