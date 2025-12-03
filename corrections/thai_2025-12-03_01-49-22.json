@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "language": "thai",
+    "editor": "scott",
+    "editor_email": "scott@farclass.com",
+    "timestamp": "2025-12-03T01:49:22.034Z",
+    "source_file": "RDGBook_Thai.md",
+    "total_items": 396,
+    "edited_items": 1,
+    "chapters_covered": [
+      3
+    ]
+  },
+  "corrections": [
+    {
+      "id": "chapter-3",
+      "chapter": 3,
+      "original": "หน้าปก",
+      "edited": "หน้าasdf",
+      "status_update": "corrected"
+    }
+  ]
+}
