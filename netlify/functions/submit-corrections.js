@@ -118,7 +118,7 @@ const handler = async (event, context) => {
     const requestBody = {
       message: commitMessage,
       content: contentBase64,
-      branch: 'main'
+      branch: 'master'
     };
 
     // If file exists, include SHA for update
