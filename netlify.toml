@@ -1,0 +1,37 @@
+# Netlify Configuration for RDG Translation Project
+# This configures the serverless functions deployment
+
+[build]
+  # No build command needed - we're just deploying functions
+  command = "echo 'No build required'"
+
+  # Publish directory (not used for functions-only deployment)
+  publish = "."
+
+  # Functions directory
+  functions = "netlify/functions"
+
+[functions]
+  # Directory where your functions are located
+  directory = "netlify/functions"
+
+  # Node.js version
+  node_bundler = "esbuild"
+
+# Environment variables (set these in Netlify dashboard, not here!)
+# GITHUB_TOKEN - GitHub Personal Access Token with repo write permissions
+# GITHUB_OWNER - Your GitHub username (default: scott009)
+# GITHUB_REPO - Your repository name (default: rdgtrans)
+
+# Redirects and headers
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "POST, OPTIONS"
