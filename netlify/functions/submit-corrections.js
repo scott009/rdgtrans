@@ -11,14 +11,6 @@
  */
 
 const handler = async (event, context) => {
-  // Only allow POST requests
-  if (event.httpMethod !== 'POST') {
-    return {
-      statusCode: 405,
-      body: JSON.stringify({ error: 'Method not allowed. Use POST.' })
-    };
-  }
-
   // CORS headers for GitHub Pages
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -27,12 +19,21 @@ const handler = async (event, context) => {
     'Content-Type': 'application/json'
   };
 
-  // Handle preflight requests
+  // Handle preflight requests FIRST
   if (event.httpMethod === 'OPTIONS') {
     return {
       statusCode: 200,
       headers,
       body: ''
+    };
+  }
+
+  // Only allow POST requests
+  if (event.httpMethod !== 'POST') {
+    return {
+      statusCode: 405,
+      headers,
+      body: JSON.stringify({ error: 'Method not allowed. Use POST.' })
     };
   }
 
