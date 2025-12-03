@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "language": "test",
+    "editor": "Test User",
+    "editor_email": "test@example.com",
+    "timestamp": "2024-12-02T19:35:00Z",
+    "source_file": "test.md",
+    "total_items": 1,
+    "edited_items": 1,
+    "chapters_covered": [
+      1
+    ]
+  },
+  "corrections": [
+    {
+      "id": "test-1",
+      "chapter": 1,
+      "original": "Original text",
+      "edited": "Edited text",
+      "status_update": "corrected"
+    }
+  ]
+}
