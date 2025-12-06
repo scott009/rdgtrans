@@ -155,7 +155,14 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
         }}
 
         header h1 {{
-            margin: 0 0 15px 0;
+            margin: 0 0 5px 0;
+        }}
+
+        header .version {{
+            margin: 0;
+            font-size: 14px;
+            opacity: 0.8;
+            font-weight: normal;
         }}
 
         .reviewer-section {{
@@ -420,6 +427,7 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
 <body>
     <header>
         <h1>Recovery Dharma - {language_name} Translation Correction Tool</h1>
+        <p class="version">version 1.0</p>
     </header>
 
     <div class="reviewer-section">
@@ -519,7 +527,7 @@ def generate_tmaster_v2(workmaster_json, english_md, thai_md, output_file, langu
     </main>
 
     <footer>
-        <button type="button" id="download-btn">📥 Download Corrections JSON</button>
+        <button type="button" id="download-btn">Submit</button>
         <div id="stats">
             <span id="total-count">{len(content_items)} items ({headings_count} chapters + {paragraphs_count} paragraphs)</span>
             <span id="edited-count">0 edited</span>
