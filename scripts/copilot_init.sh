@@ -3,10 +3,12 @@
 # Copilot Initialization Script
 # Loads essential context for GitHub Copilot to operate as implementation partner
 #
+# Location: /home/scott/gitrepos/rdgtrans/scripts/copilot_init.sh
+#
 # This script loads ONLY what Copilot needs to execute tasks.
 # Copilot is the implementer/executor, not the architect.
 #
-# For full architectural context, see read_docs.sh (Claude Code uses that)
+# For full architectural context, see scripts/read_docs.sh (Claude Code uses that)
 
 DOCHOME="/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations"
 

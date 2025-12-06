@@ -1,5 +1,9 @@
 #!/bin/bash
-# Script to prompt reading documentation from dochome
+
+# Claude Code Initialization Script
+# Location: /home/scott/gitrepos/rdgtrans/scripts/read_docs.sh
+#
+# This script shows available documentation files for the RDG Translation Project
 
 # Change to project directory
 cd /home/scott/gitrepos/rdgtrans/
