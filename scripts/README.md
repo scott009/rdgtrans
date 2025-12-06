@@ -40,6 +40,11 @@ This directory contains operational scripts for the RDG Translation Project.
 /home/scott/gitrepos/rdgtrans/scripts/copilot_init.sh
 ```
 
+**Side effect:**
+- Creates `.copilot_last_init` timestamp file in projhome
+- Allows Claude Code to verify when Copilot last initialized
+- File is in .gitignore (not tracked by git)
+
 ---
 
 ## Operational Scripts

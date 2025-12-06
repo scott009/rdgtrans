@@ -71,3 +71,11 @@ echo ""
 echo "  When in doubt: Ask the user or defer to Claude Code"
 echo ""
 echo "=========================================="
+echo ""
+
+# Create timestamp file so Claude Code can verify Copilot initialization
+TIMESTAMP_FILE="/home/scott/gitrepos/rdgtrans/.copilot_last_init"
+date "+%Y-%m-%d %H:%M:%S" > "$TIMESTAMP_FILE"
+echo "✓ Copilot initialization timestamp recorded"
+echo "  ($TIMESTAMP_FILE)"
+echo ""
