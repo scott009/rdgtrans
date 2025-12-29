@@ -506,6 +506,86 @@
       "description": "Print Master - PDF-optimized layout for printing and offline distribution",
       "status": "planned",
       "notes": "Container for print-optimized versions (rdgThaiPrint.html, rdgJapanesePrint.html, etc.)"
+    },
+
+    "rdg_translations_portal": {
+      "version": "1.0",
+      "description": "RDG Translations Portal - Multi-language project entry point and navigation hub",
+      "reference_implementation": "RDGTranslations.html",
+      "specification": "dochome/rdg_portal_container_spec.md",
+
+      "structure": {
+        "sections": [
+          {
+            "id": "header",
+            "type": "header",
+            "description": "Page title and metadata"
+          },
+          {
+            "id": "about_project",
+            "type": "content_section",
+            "description": "Mission statement and project philosophy"
+          },
+          {
+            "id": "english_source",
+            "type": "link_section",
+            "elements": ["english_book_link"],
+            "description": "Link to English source book"
+          },
+          {
+            "id": "audio_introductions",
+            "type": "media_section",
+            "elements": ["audio_english", "audio_thai", "audio_japanese", "audio_korean", "audio_chinese_simp", "audio_chinese_trad", "audio_vietnamese"],
+            "description": "Audio introductions in all languages"
+          },
+          {
+            "id": "translation_masters",
+            "type": "navigation_section",
+            "elements": ["link_tmaster_thai", "link_tmaster_japanese", "link_tmaster_korean", "link_tmaster_chinese_simp", "link_tmaster_chinese_trad", "link_tmaster_vietnamese"],
+            "description": "Links to translation correction forms for all languages"
+          },
+          {
+            "id": "print_masters",
+            "type": "navigation_section",
+            "elements": ["link_print_thai", "link_print_japanese", "link_print_korean", "link_print_chinese_simp", "link_print_chinese_trad", "link_print_vietnamese"],
+            "description": "Links to print-optimized versions for all languages"
+          },
+          {
+            "id": "participation",
+            "type": "content_section",
+            "description": "How to participate section with subsections for different roles"
+          },
+          {
+            "id": "contact",
+            "type": "footer",
+            "elements": ["contact_email"],
+            "description": "Final welcome message and contact information"
+          }
+        ]
+      },
+
+      "assets": {
+        "css": {
+          "external": ["ada3.css"],
+          "embedded": "link_hover_styles"
+        },
+        "media": {
+          "audio_source": "https://archive.org/download/rdgtbooktranslations/",
+          "format": "mp3"
+        }
+      },
+
+      "validation": {
+        "required_sections": ["header", "about_project", "english_source", "audio_introductions", "translation_masters", "print_masters", "participation", "contact"],
+        "required_links": {
+          "english_source": 1,
+          "translation_masters": 6,
+          "print_masters": 6
+        },
+        "required_media": {
+          "audio_players": 7
+        }
+      }
     }
 
   }
