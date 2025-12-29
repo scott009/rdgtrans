@@ -497,15 +497,135 @@
     "screen_reader": {
       "version": "1.0",
       "description": "Screen Reading Version - Single-page web view optimized for online reading",
-      "status": "planned",
-      "notes": "Container for web-optimized reading versions (rdgThai.html, rdgJapanese.html, etc.)"
+      "reference_implementation": "rdgThai.html",
+      "specification": "dochome/screen_reader_container_spec.md",
+
+      "structure": {
+        "sections": [
+          {
+            "id": "content",
+            "type": "sequential_content",
+            "description": "Main content area with chapters and paragraphs",
+            "elements": ["chapter_headings", "paragraph_id_tags", "paragraph_text"]
+          }
+        ]
+      },
+
+      "language_config": {
+        "thai": {
+          "code": "th",
+          "master_file": "RDGBook_Thai.md",
+          "output_file": "rdgThai.html"
+        },
+        "japanese": {
+          "code": "ja",
+          "master_file": "RDGBook_Japanese.md",
+          "output_file": "rdgJapanese.html"
+        },
+        "korean": {
+          "code": "ko",
+          "master_file": "RDGBook_Korean.md",
+          "output_file": "rdgKorean.html"
+        },
+        "simplified_chinese": {
+          "code": "zh-CN",
+          "master_file": "RDGBook_SimplifiedChinese.md",
+          "output_file": "rdgSimplifiedChinese.html"
+        },
+        "traditional_chinese": {
+          "code": "zh-TW",
+          "master_file": "RDGBook_TraditionalChinese.md",
+          "output_file": "rdgTraditionalChinese.html"
+        },
+        "vietnamese": {
+          "code": "vi",
+          "master_file": "RDGBook_Vietnamese.md",
+          "output_file": "rdgVietnamese.html"
+        }
+      },
+
+      "assets": {
+        "css": {
+          "external": ["ada3.css"]
+        }
+      },
+
+      "validation": {
+        "required_elements": ["h2.chaptermain", "h3.id-tag", "p"],
+        "required_css": ["ada3.css"]
+      }
     },
 
     "print_master": {
       "version": "1.0",
       "description": "Print Master - PDF-optimized layout for printing and offline distribution",
-      "status": "planned",
-      "notes": "Container for print-optimized versions (rdgThaiPrint.html, rdgJapanesePrint.html, etc.)"
+      "reference_implementation": "rdgThaiPrint.html",
+      "specification": "dochome/print_master_container_spec.md",
+
+      "structure": {
+        "sections": [
+          {
+            "id": "content",
+            "type": "sequential_content",
+            "description": "Main content area with chapters and paragraphs optimized for print",
+            "elements": ["chapter_headings", "paragraph_id_tags", "paragraph_text"]
+          }
+        ]
+      },
+
+      "language_config": {
+        "thai": {
+          "code": "th",
+          "master_file": "RDGBook_Thai.md",
+          "output_file": "rdgThaiPrint.html"
+        },
+        "japanese": {
+          "code": "ja",
+          "master_file": "RDGBook_Japanese.md",
+          "output_file": "rdgJapanesePrint.html"
+        },
+        "korean": {
+          "code": "ko",
+          "master_file": "RDGBook_Korean.md",
+          "output_file": "rdgKoreanPrint.html"
+        },
+        "simplified_chinese": {
+          "code": "zh-CN",
+          "master_file": "RDGBook_SimplifiedChinese.md",
+          "output_file": "rdgSimplifiedChinesePrint.html"
+        },
+        "traditional_chinese": {
+          "code": "zh-TW",
+          "master_file": "RDGBook_TraditionalChinese.md",
+          "output_file": "rdgTraditionalChinesePrint.html"
+        },
+        "vietnamese": {
+          "code": "vi",
+          "master_file": "RDGBook_Vietnamese.md",
+          "output_file": "rdgVietnamesePrint.html"
+        }
+      },
+
+      "assets": {
+        "css": {
+          "external": ["ada3.css"],
+          "embedded": "print_styles"
+        },
+        "print_features": {
+          "page_size": "letter",
+          "facing_pages": true,
+          "orphan_widow_control": true,
+          "chapter_page_breaks": "right",
+          "heading_page_break_after": "avoid",
+          "paragraph_page_break_inside": "avoid"
+        }
+      },
+
+      "validation": {
+        "required_elements": ["h2.chaptermain", "h3.id-tag", "p"],
+        "required_css": ["ada3.css"],
+        "required_media_queries": ["@media print"]
+      }
     },
 
     "rdg_translations_portal": {
