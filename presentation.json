@@ -706,6 +706,136 @@
           "audio_players": 7
         }
       }
+    },
+
+    "language_portal": {
+      "version": "1.0",
+      "description": "Language Portal - Single-language focused entry point for language-specific collaborators",
+      "reference_implementation": "rdgThaiPortal.html",
+      "specification": "dochome/language_portal_container_spec.md",
+
+      "structure": {
+        "sections": [
+          {
+            "id": "header",
+            "type": "header",
+            "description": "Page title and metadata"
+          },
+          {
+            "id": "about_project",
+            "type": "content_section",
+            "description": "Mission statement and project philosophy"
+          },
+          {
+            "id": "english_source",
+            "type": "link_section",
+            "elements": ["english_book_link"],
+            "description": "Link to English source book (bilingual reference)"
+          },
+          {
+            "id": "language_audio",
+            "type": "media_section",
+            "elements": ["audio_player"],
+            "description": "Audio introduction in target language only"
+          },
+          {
+            "id": "language_resources",
+            "type": "navigation_section",
+            "elements": ["link_tmaster", "link_print", "link_screen"],
+            "description": "Links to target language resources (tmaster, print, screen reader)"
+          },
+          {
+            "id": "participation",
+            "type": "content_section",
+            "description": "How to participate section"
+          },
+          {
+            "id": "contact",
+            "type": "footer",
+            "elements": ["contact_email"],
+            "description": "Contact information"
+          }
+        ]
+      },
+
+      "language_config": {
+        "thai": {
+          "code": "th",
+          "portal_title": "Recovery Dharma - Thai Translation Project",
+          "output_file": "rdgThaiPortal.html",
+          "audio_file": "Thai_Introductions.mp3",
+          "tmaster_link": "tmasterThai.html",
+          "print_link": "rdgThaiPrint.html",
+          "screen_link": "rdgThai.html"
+        },
+        "japanese": {
+          "code": "ja",
+          "portal_title": "Recovery Dharma - Japanese Translation Project",
+          "output_file": "rdgJapanesePortal.html",
+          "audio_file": "Japanese_Introductions.mp3",
+          "tmaster_link": "tmasterJapanese.html",
+          "print_link": "rdgJapanesePrint.html",
+          "screen_link": "rdgJapanese.html"
+        },
+        "korean": {
+          "code": "ko",
+          "portal_title": "Recovery Dharma - Korean Translation Project",
+          "output_file": "rdgKoreanPortal.html",
+          "audio_file": "Korean_Introductions.mp3",
+          "tmaster_link": "tmasterKorean.html",
+          "print_link": "rdgKoreanPrint.html",
+          "screen_link": "rdgKorean.html"
+        },
+        "simplified_chinese": {
+          "code": "zh-CN",
+          "portal_title": "Recovery Dharma - Simplified Chinese Translation Project",
+          "output_file": "rdgSimplifiedChinesePortal.html",
+          "audio_file": "ChineseSimplified_Introductions.mp3",
+          "tmaster_link": "tmasterSimplifiedChinese.html",
+          "print_link": "rdgSimplifiedChinesePrint.html",
+          "screen_link": "rdgSimplifiedChinese.html"
+        },
+        "traditional_chinese": {
+          "code": "zh-TW",
+          "portal_title": "Recovery Dharma - Traditional Chinese Translation Project",
+          "output_file": "rdgTraditionalChinesePortal.html",
+          "audio_file": "ChineseTraditional_Introductions.mp3",
+          "tmaster_link": "tmasterTraditionalChinese.html",
+          "print_link": "rdgTraditionalChinesePrint.html",
+          "screen_link": "rdgTraditionalChinese.html"
+        },
+        "vietnamese": {
+          "code": "vi",
+          "portal_title": "Recovery Dharma - Vietnamese Translation Project",
+          "output_file": "rdgVietnamesePortal.html",
+          "audio_file": "Vietnamese_Introductions.mp3",
+          "tmaster_link": "tmasterVietnamese.html",
+          "print_link": "rdgVietnamesePrint.html",
+          "screen_link": "rdgVietnamese.html"
+        }
+      },
+
+      "assets": {
+        "css": {
+          "external": ["ada3.css"]
+        },
+        "media": {
+          "audio_source": "https://archive.org/download/rdgtbooktranslations/"
+        }
+      },
+
+      "validation": {
+        "required_sections": ["header", "about_project", "english_source", "language_audio", "language_resources", "participation", "contact"],
+        "required_links": {
+          "english_source": 1,
+          "tmaster": 1,
+          "print": 1,
+          "screen": 1
+        },
+        "required_media": {
+          "audio_players": 1
+        }
+      }
     }
 
   }
