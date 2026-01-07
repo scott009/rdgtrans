@@ -1,0 +1,25 @@
+=== SCAN-VIET-003 SUMMARY ===
+
+Target: /mnt/c/Users/scott/Documents/RecoveryDharma/RDGBook/output_V1/docs/tmasterVietnamese.html
+Presauth: /mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations/supervisor_updates/pres_tmaster_viet.json
+
+Total paragraphs scanned: 1990
+
+Classifications:
+  CONTENT_MISMATCH: 0
+  MATCH: 0
+  MISSING_IN_PRESAUTH: 1990
+  MISSING_IN_TARGET: 396
+  STRUCTURAL_MISMATCH: 0
+
+Notable patterns:
+  - Match rate: 0.0%
+  - 1990 paragraphs in target not found in presauth
+  - 396 paragraphs in presauth not found in target
+  - ID schema mismatch detected:
+    * Target uses: pr_6, pr_7, pr_27, pr_28, ... (pr_ prefix)
+    * Presauth uses: chapter-3, p3-1, p3-2, p4-1, ... (chapter/paragraph format)
+  - Complete non-overlap suggests incompatible ID systems
+
+No files were modified.
+No unbound sources were consulted.

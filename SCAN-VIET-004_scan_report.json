@@ -1,0 +1,1421 @@
+{
+  "run_id": "SCAN-VIET-004",
+  "target_file": "/mnt/c/Users/scott/Documents/RecoveryDharma/RDGBook/output_V1/docs/tmasterVietnamese.html",
+  "authority_files": {
+    "presauth": "/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations/supervisor_updates/pres_tmaster_viet.json",
+    "jmaster": "/home/scott/gitrepos/rdgtrans/workmaster.json"
+  },
+  "summary": {
+    "total": 351,
+    "presauth_covered": 351,
+    "jmaster_covered": 0,
+    "out_of_scope": 0,
+    "unaccounted": 0
+  },
+  "by_paragraph": [
+    {
+      "paragraph_id": "p3-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p3-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p4-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p5-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p5-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p5-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p5-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p5-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-15",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-16",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-17",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-18",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-19",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-20",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-21",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-22",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-23",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-24",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-25",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-26",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-27",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p6-28",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p8-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p8-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p8-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p8-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p9-15",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p10-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p11-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p12-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p13-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p14-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p14-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p14-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p14-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p14-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p15-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p15-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p15-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p15-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p15-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.1-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p16.2-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p19.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p20.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21-16",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21-17",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p21.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p22-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p23.1-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-15",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-16",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-17",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-18",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24-19",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p24.2-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p25.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-15",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-16",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-17",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-18",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p26.1-19",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p27.1-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p28.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p29.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30.1-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30.1-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30.1-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30.1-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p30.1-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p31-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p32-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p33-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p34-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p35-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-1",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-2",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-3",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-4",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-5",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-6",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-7",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-8",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-9",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-10",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-11",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-12",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-13",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-14",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-15",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-17",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-18",
+      "authority": "presauth"
+    },
+    {
+      "paragraph_id": "p36-19",
+      "authority": "presauth"
+    }
+  ]
+}

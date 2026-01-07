@@ -1,0 +1,1602 @@
+{
+  "run_id": "SCAN-VIET-005",
+  "target_file": "/mnt/c/Users/scott/Documents/RecoveryDharma/RDGBook/output_V1/docs/tmasterVietnamese.html",
+  "authority_file": "/home/scott/gitrepos/rdgtrans/workmaster.json",
+  "summary": {
+    "expected_total": 397,
+    "present_once": 351,
+    "missing": 46,
+    "duplicate": 0,
+    "unexpected": 0
+  },
+  "by_paragraph": [
+    {
+      "paragraph_id": "ch_c4ca423",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "ch_dd2e556",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p3-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p3-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_fbaa997",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p4-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p4-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_f59cd81",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p5-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p5-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p5-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p5-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p5-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_03d5fa9",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p6-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-15",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-16",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-17",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-18",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-19",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-20",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-21",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-22",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-23",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-24",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-25",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-26",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-27",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p6-28",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_63148a2",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p8-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p8-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p8-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p8-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_2229b70",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p9-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p9-15",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_e4df36a",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p10-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p10-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_3a1d937",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p11-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p11-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_10783df",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p12-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p12-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_59f6e9c",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p13-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p13-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_9d60be7",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p14-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p14-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p14-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p14-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p14-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_76d9581",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p15-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p15-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p15-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p15-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p15-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_531a3ad",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p16-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_f96b5e7",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p16.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.1-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_8d2a202",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p16.2-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.2-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.2-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.2-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.2-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p16.2-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_244c18c",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p19-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_b414ec4",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p19.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p19.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_e1813bd",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p20-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p20-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p20-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_2edd969",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p20.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p20.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p20.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p20.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_19700ca",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p21-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21-16",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21-17",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_1358222",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p21.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p21.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_9bdc8e5",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p22-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_bf07db0",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p23-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_929b720",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p23.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p23.1-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_dda3595",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p24-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-15",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-16",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-17",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-18",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24-19",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_6de8668",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p24.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_8445702",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p24.2-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p24.2-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_b3c34d9",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p25-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_4d6925a",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p25.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p25.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_164af71",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p26-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_f2c9e79",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p26.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-15",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-16",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-17",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-18",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p26.1-19",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_f376ead",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p27-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_4852114",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p27.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p27.1-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_8984b8f",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p28-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_485c92e",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p28.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p28.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_49aef5c",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p29-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_bc46167",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p29.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p29.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_436ac5f",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p30-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_6a60b63",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p30.1-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30.1-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30.1-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30.1-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p30.1-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_c2920c1",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p31-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p31-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_0c22506",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p32-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p32-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_053199c",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p33-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p33-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_583a6d0",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p34-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p34-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_b1aa9c6",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p35-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p35-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "ch_88ff1dd",
+      "structural_status": "missing"
+    },
+    {
+      "paragraph_id": "p36-1",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-2",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-3",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-4",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-5",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-6",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-7",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-8",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-9",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-10",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-11",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-12",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-13",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-14",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-15",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-17",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-18",
+      "structural_status": "present_once"
+    },
+    {
+      "paragraph_id": "p36-19",
+      "structural_status": "present_once"
+    }
+  ]
+}

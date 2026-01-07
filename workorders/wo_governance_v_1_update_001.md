@@ -1,0 +1,240 @@
+# WO-governance-v1-update-001
+
+## SSQS v2 — Governance Update Work Order
+
+---
+
+## 0. WORK ORDER HEADER
+
+**Work Order ID:** WO-governance-v1-update-001  
+**Title:** Update governance documentation based on tmaster verification findings  
+**Date Issued:** 2026-01-01  
+**Supervisor:** Scott  
+**Priority:** Normal  
+**Summary:**  
+Purposeful, process-aware update of governance documentation to align with findings from WO-TMASTER-v1-verification-002. This Work Order updates shared context and container specification documents only, with no impact on generated HTML artifacts.
+
+---
+
+## 1. PURPOSE
+
+The purpose of this Work Order is to incorporate verified findings from the tmaster verification process into authoritative governance documentation. These updates clarify output artifact status, generator data flow, reporting conventions, and align the tmaster container specification explicitly with presmaster v3.0.0 validation rules.
+
+This Work Order ensures governance accuracy before any remediation or transformation Work Orders are issued.
+
+---
+
+## 2. SCOPE & BOUNDARIES
+
+### 2.1 Allowed Directories
+
+- `/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations` (dochome)
+
+(Read + Write)
+
+### 2.2 Forbidden Directories
+
+- `/home/scott/gitrepos/rdgtrans`
+- `/home/scott/gitrepos/rdgtrans/output`
+- `showoff` repository
+- Any non-dochome paths
+
+### 2.3 File Types in Scope
+
+- `sharedContext.md`
+- `tmaster_container_spec.md`
+
+---
+
+## 3. EXECUTION MODEL (Sonnet / Haiku)
+
+### 3.1 Sonnet Responsibilities
+
+- Review findings from WO-TMASTER-v1-verification-002
+- Generate a precise edit plan for each document
+- Supervise Haiku execution
+- Perform post-edit verification
+
+### 3.2 Haiku Responsibilities
+
+- Apply exact textual updates as specified
+- Modify only the identified sections
+- Update version numbers and headers
+- Make no additional changes
+
+### 3.3 Execution Rule
+
+Sonnet plans and verifies.  
+Haiku applies deterministic documentation edits.
+
+---
+
+## 4. TASK DESCRIPTION
+
+### Part A — sharedContext.md Updates
+
+**File:**  
+`/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations/sharedContext.md`
+
+#### Change 1 — Section 7: Public Output
+
+Add clarification that tmaster files are generated output artifacts:
+
+```
+**Generated Output Files:**
+This directory contains GENERATED HTML files produced by Python scripts in pyhome/:
+- tmaster*.html – Translation correction forms
+- rdg*.html – Screen reader versions
+- rdg*Print.html – Print-optimized versions
+- RDGTranslations.html – Portal pages
+
+These are OUTPUT artifacts. Source content lives in lmasters/.
+```
+
+#### Change 2 — Section 8: High-Level Data Flow
+
+Expand to explicitly show generator script roles:
+
+```
+1. Source translations stored in lmasters/RDGBook_{Language}.md
+2. Presentation structure defined in presentation.json (presmaster)
+3. Python generator scripts in py/ process inputs:
+   - generate_tmaster_*.py → tmaster*.html
+   - Other generators for screen_reader and print_master
+4. Generated HTML files output to output_V1/docs/
+5. Translator corrections stored in corrections/
+6. Public output optionally published to showoff repo
+```
+
+#### Change 3 — Section 6: Project Documentation
+
+Add a new subsection:
+
+```
+### Reporting and Audit Trail
+
+Temporary Reports:
+- Location: workingfiles/
+- Purpose: In-progress analysis, verification reports
+- Retention: May be archived or deleted
+
+Permanent Audit Records:
+- Location: wohome/ and wohome/supervisor_updates/
+- Purpose: Work Order execution records
+- Retention: Permanent
+```
+
+Update document version to **1.4**.
+
+---
+
+### Part B — tmaster_container_spec.md Updates
+
+**File:**  
+`/mnt/c/Users/scott/Documents/AIProjects/Markdown/RDGTranslations/tmaster_container_spec.md`
+
+#### Change 1 — Header Update
+
+Update document header:
+
+```
+# Translation Master Container Specification v2.1
+
+Document Type: Container Type Definition
+Container ID: tmaster
+Version: 2.1
+Last Updated: 2026-01-01
+Presmaster Alignment: v3.0.0
+Reference Implementation: tmasterJapanese.html
+```
+
+#### Change 2 — Validation Requirements Section
+
+Replace existing validation section with:
+
+```
+Authoritative Source: presentation.json → container_types.tmaster.validation
+
+Required PR Elements (18):
+pr_2, pr_6, pr_7, pr_8, pr_9, pr_14, pr_16, pr_27, pr_28, pr_29, pr_30, pr_31, pr_32, pr_33, pr_34, pr_35, pr_36, pr_37
+
+Required Data Attributes:
+- data-pr-id
+- data-pr-type
+- data-original
+- data-chapter
+- data-id
+
+Required Content Blocks:
+- 45 chapter title blocks
+- 351 paragraph blocks
+- Total items: 396
+
+Required Features:
+- Language toggle
+- Modification tracking
+- Submit functionality
+
+Language bindings must match presentation.json language_config.
+
+Validation Reference: presmaster v3.0.0 lines 485–494
+```
+
+---
+
+## 5. METADATA FOR EXECUTION
+
+- Source verification: WO-TMASTER-v1-verification-002
+- Presmaster version: 3.0.0
+
+---
+
+## 6. PLAN OF EXECUTION (Generated by Sonnet)
+
+1. Review current versions of both documents
+2. Apply scoped edits per this Work Order
+3. Update version headers
+4. Perform read-back verification
+
+---
+
+## 7. EXECUTION (Performed by Haiku)
+
+Haiku applies edits exactly as planned.
+
+---
+
+## 8. ERROR HANDLING & ESCALATION
+
+- Unexpected file contents → stop and escalate
+- Ambiguous section boundaries → escalate to Sonnet
+- Any additional required change → halt and request guidance
+
+---
+
+## 9. DELIVERABLES
+
+1. Updated `sharedContext.md` (v1.4)
+2. Updated `tmaster_container_spec.md` (v2.1)
+
+---
+
+## 10. ACCEPTANCE CRITERIA
+
+- All specified changes applied
+- No unintended modifications
+- Version numbers updated correctly
+- Files remain valid Markdown
+- Sonnet confirms alignment with presmaster v3.0.0
+
+---
+
+## 11. NOTES & SPECIAL INSTRUCTIONS
+
+- Documentation-only Work Order
+- No generated HTML modified
+- No commits unless explicitly requested
+
+---
+
+## 12. END OF WORK ORDER
